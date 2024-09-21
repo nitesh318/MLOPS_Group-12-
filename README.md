@@ -1,14 +1,11 @@
-Name of the active BITS contributors in this assignment:
+# Name of the active BITS contributors in this assignment:
 
-1.Nitesh Bhushan (2022ac05001)  
-2.Vishnu C (2022ac05028)  
-3.Patil Sandeep Bhimrao (2022ac05149)  
-4.Ravindra N C (2022ac05024)  
-5.Anwaruddin Biswas (2022ac05278)
+1. Nitesh Bhushan (2022ac05001)  
+2. Vishnu C (2022ac05028)  
+3. Patil Sandeep Bhimrao (2022ac05149)  
+4. Ravindra N C (2022ac05024)  
+5. Anwaruddin Biswas (2022ac05278)
 
-
-
-```markdown
 # End-to-End Machine Learning Workflow with KizenML and XAI
 
 ## Project Overview
@@ -55,7 +52,7 @@ A `Dockerfile` was created to package the Python application, including the trai
 1. **Base Image**: Used the official AWS Lambda Python 3.9 image as the base.
    ```dockerfile
    FROM public.ecr.aws/lambda/python:3.9
-   ```
+
 
 2. **Copy Application Code**: Copied the Lambda function and other required files (model, scaler) into the container.
    ```dockerfile
@@ -143,3 +140,4 @@ After pushing the image to ECR, it was linked to an AWS Lambda function for depl
 This project successfully demonstrates an end-to-end machine learning workflow, from data preprocessing and model training to deployment with Docker, AWS Lambda, and ECR. Explainable AI (XAI) techniques were applied to ensure transparency and interpretability of the model's predictions.
 
 The Docker containerization process made local testing easy and seamless, while AWS ECR and Lambda provided scalable and serverless deployment capabilities.
+```
